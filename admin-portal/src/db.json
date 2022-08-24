@@ -1,0 +1,26 @@
+{
+    "customers": [
+        {
+            "id": 1,
+            "first_name": "Teacher_1",
+            "last_name": "Teacher_11",
+            "email": "Teacher1@mail.com",
+            "phone": "00000000000",
+            "address": "Teacher_1 Address",
+            "description": "Teacher_1 description",
+            "doa":"13/02/2000",
+            "salary":"53000"
+        },
+        {
+            "id": 2,
+            "first_name": "Teacher_2",
+            "last_name": "Teacher_2",
+            "email": "teacher2@mail.com",
+            "phone": "00000000000",
+            "address": "Teacher_2 Adress",
+            "description": "Teacher_2 Description",
+            "doa":"19/02/2000",
+            "salary":"50000"
+        }
+    ]
+}
