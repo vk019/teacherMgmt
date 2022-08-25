@@ -19,6 +19,20 @@ const employeesData = [
       pscale:'Level 11',
       baccount:'***********772',
       bname:'Bank of Maharashtra',
+      s1name:'Abc School',
+      sdate1:'01/05/2015',
+      edate1:'01/05/2017',
+      s2name:'XYZ School',
+      sdate2:'08/05/2017',
+      edate2:'08/12/2020',
+      s3name:'QWE School',
+      sdate3:'015/12/2020',
+      edate3:'Null',
+
+      rem1:'First posting , Good Conduct',
+      rem2:'Caught in bribe case',
+      rem3:'currently serving here'
+
        
     },
     {
@@ -41,6 +55,19 @@ const employeesData = [
       pscale:'Level 11',
       baccount:'***********772',
       bname:'Bank of Maharashtra',
+      s1name:'Abc School',
+      sdate1:'01/05/2015',
+      edate1:'01/05/2017',
+      s2name:'XYZ School',
+      sdate2:'08/05/2017',
+      edate2:'08/12/2020',
+      s3name:'QWE School',
+      sdate3:'015/12/2020',
+      edate3:'Null',
+
+      rem1:'First posting , Good Conduct',
+      rem2:'Caught in bribe case',
+      rem3:'currently serving here'
     },
     {
       id: 3,
@@ -62,6 +89,19 @@ const employeesData = [
       pscale:'Level 11',
       baccount:'***********772',
       bname:'Bank of Maharashtra',
+      s1name:'Abc School',
+      sdate1:'01/05/2015',
+      edate1:'01/05/2017',
+      s2name:'XYZ School',
+      sdate2:'08/05/2017',
+      edate2:'08/12/2020',
+      s3name:'QWE School',
+      sdate3:'015/12/2020',
+      edate3:'Null',
+
+      rem1:'First posting , Good Conduct',
+      rem2:'Caught in bribe case',
+      rem3:'currently serving here'
     },
     {
       id: 4,
@@ -83,6 +123,19 @@ const employeesData = [
       pscale:'Level 11',
       baccount:'***********772',
       bname:'Bank of Maharashtra',
+      s1name:'Abc School',
+      sdate1:'01/05/2015',
+      edate1:'01/05/2017',
+      s2name:'XYZ School',
+      sdate2:'08/05/2017',
+      edate2:'08/12/2020',
+      s3name:'QWE School',
+      sdate3:'015/12/2020',
+      edate3:'Null',
+
+      rem1:'First posting , Good Conduct',
+      rem2:'Caught in bribe case',
+      rem3:'currently serving here'
     },
     {
       id: 5,
@@ -104,6 +157,19 @@ const employeesData = [
       pscale:'Level 11',
       baccount:'***********772',
       bname:'Bank of Maharashtra',
+      s1name:'Abc School',
+      sdate1:'01/05/2015',
+      edate1:'01/05/2017',
+      s2name:'XYZ School',
+      sdate2:'08/05/2017',
+      edate2:'08/12/2020',
+      s3name:'QWE School',
+      sdate3:'015/12/2020',
+      edate3:'Null',
+
+      rem1:'First posting , Good Conduct',
+      rem2:'Caught in bribe case',
+      rem3:'currently serving here'
     },
     {
       id: 6,
@@ -125,6 +191,19 @@ const employeesData = [
       pscale:'Level 11',
       baccount:'***********772',
       bname:'Bank of Maharashtra',
+      s1name:'Abc School',
+      sdate1:'01/05/2015',
+      edate1:'01/05/2017',
+      s2name:'XYZ School',
+      sdate2:'08/05/2017',
+      edate2:'08/12/2020',
+      s3name:'QWE School',
+      sdate3:'015/12/2020',
+      edate3:'Null',
+
+      rem1:'First posting , Good Conduct',
+      rem2:'Caught in bribe case',
+      rem3:'currently serving here'
     },
     {
       id: 7,
@@ -146,6 +225,19 @@ const employeesData = [
       pscale:'Level 11',
       baccount:'***********772',
       bname:'Bank of Maharashtra',
+      s1name:'Abc School',
+      sdate1:'01/05/2015',
+      edate1:'01/05/2017',
+      s2name:'XYZ School',
+      sdate2:'08/05/2017',
+      edate2:'08/12/2020',
+      s3name:'QWE School',
+      sdate3:'015/12/2020',
+      edate3:'Null',
+
+      rem1:'First posting , Good Conduct',
+      rem2:'Caught in bribe case',
+      rem3:'currently serving here'
     },
     {
       id: 8,
@@ -167,6 +259,19 @@ const employeesData = [
       pscale:'Level 11',
       baccount:'***********772',
       bname:'Bank of Maharashtra',
+      s1name:'Abc School',
+      sdate1:'01/05/2015',
+      edate1:'01/05/2017',
+      s2name:'XYZ School',
+      sdate2:'08/05/2017',
+      edate2:'08/12/2020',
+      s3name:'QWE School',
+      sdate3:'015/12/2020',
+      edate3:'Null',
+
+      rem1:'First posting , Good Conduct',
+      rem2:'Caught in bribe case',
+      rem3:'currently serving here'
     },
     {
       id: 9,
@@ -187,6 +292,19 @@ const employeesData = [
       pscale:'Level 11',
       baccount:'***********772',
       bname:'Bank of Maharashtra',
+      s1name:'Abc School',
+      sdate1:'01/05/2015',
+      edate1:'01/05/2017',
+      s2name:'XYZ School',
+      sdate2:'08/05/2017',
+      edate2:'08/12/2020',
+      s3name:'QWE School',
+      sdate3:'015/12/2020',
+      edate3:'Null',
+
+      rem1:'First posting , Good Conduct',
+      rem2:'Caught in bribe case',
+      rem3:'currently serving here'
     },
     {
       id: 10,
@@ -208,6 +326,19 @@ const employeesData = [
       pscale:'Level 11',
       baccount:'***********772',
       bname:'Bank of Maharashtra',
+      s1name:'Abc School',
+      sdate1:'01/05/2015',
+      edate1:'01/05/2017',
+      s2name:'XYZ School',
+      sdate2:'08/05/2017',
+      edate2:'08/12/2020',
+      s3name:'QWE School',
+      sdate3:'15/12/2020',
+      edate3:'Null',
+
+      rem1:'First posting , Good Conduct',
+      rem2:'Caught in bribe case',
+      rem3:'currently serving here'
     }
   ];
   
