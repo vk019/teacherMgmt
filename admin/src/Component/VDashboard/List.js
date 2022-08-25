@@ -1,6 +1,6 @@
 import React from 'react'
 
-function List({ employees, handleEdit, handleDelete,handleView }) {
+function List({ vacancies, handleEdit, handleDelete,handleView }) {
 
     const formatter = new Intl.NumberFormat('en-US', {
         style: 'currency',
@@ -13,41 +13,41 @@ function List({ employees, handleEdit, handleDelete,handleView }) {
             <table className='striped-table'>
                 <thead>
                     <tr>
-                        <th>No.</th>
-                        <th>First Name</th>
-                        <th>Last Name</th>
-                        <th>Email</th>
-                        <th>Salary</th>
-                        <th>Date</th>
+                        <th>Vacancy ID</th>
+                        <th>School Name</th>
+                        <th>Subject</th>
+                        <th>No.of Vacant Posts</th>
+                        <th>Experience Required</th>
+                        <th>Qualification Required</th>
                         <th colSpan={2} className="text-center">
                             Actions
                         </th>
                     </tr>
                 </thead>
                 <tbody>
-                    {employees.length > 0 ? (
-                        employees.map((employee, i) => (
-                            <tr key={employee.id}>
+                    {vacancies.length > 0 ? (
+                        vacancies.map((vacancy, i) => (
+                            <tr key={vacancy.id}>
                                 <td>{i + 1}</td>
-                                <td>{employee.firstName}</td>
-                                <td>{employee.lastName}</td>
-                                <td>{employee.email}</td>
-                                <td>{formatter.format(employee.salary)}</td>
-                                <td>{employee.date} </td>
+                                <td>{vacancy.SchoolName}</td>
+                                <td>{vacancy.subject}</td>
+                                <td>{vacancy.posts}</td>
+                                <td>{vacancy.exp}</td>
+                                <td>{vacancy.qual} </td>
                                 <td className="text-right">
                                     <button
-                                        onClick={() => handleView(employee.id)}
+                                        onClick={() => handleView(vacancy.id)}
                                         className="button muted-button"
                                     >
-                                        View Full Service Record
+                                        View
                                     </button>
                                 </td>
                                 <td className="text-right">
                                     <button
-                                        onClick={() => handleEdit(employee.id)}
+                                        onClick={() => handleEdit(vacancy.id)}
                                         className="button muted-button"
                                     >
-                                        Edit
+                                        Approve
                                     </button>
                                 </td>
                                 
@@ -55,17 +55,17 @@ function List({ employees, handleEdit, handleDelete,handleView }) {
                                 
                                 <td className="text-left">
                                     <button
-                                        onClick={() => handleDelete(employee.id)}
+                                        onClick={() => handleDelete(vacancy.id)}
                                         className="button muted-button"
                                     >
-                                        Delete
+                                        Reject
                                     </button>
                                 </td>
                             </tr>
                         ))
                     ) : (
                         <tr>
-                            <td colSpan={7}>No Employees</td>
+                            <td colSpan={7}>No Vacancies</td>
                         </tr>
                     )}
                 </tbody>

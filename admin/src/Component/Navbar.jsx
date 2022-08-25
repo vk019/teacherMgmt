@@ -31,12 +31,12 @@ function Navbar() {
 
               <NavLink to="/School" className="listItem" id='sch'style={({ isActive }) =>
               isActive ? activeStyle : undefined }>Manage Schools</NavLink>
+              
+              <NavLink to="/Vacancy" className="listItem" id='vac' style={({ isActive }) =>
+              isActive ? activeStyle : undefined }> Manage Vacancy</NavLink>
               <NavLink to="/Calapp" className="listItem" id='cal' style={({ isActive }) =>
               isActive ? activeStyle : undefined } >Calendar</NavLink>
               
-              
-              <NavLink to="/Gallery" className="listItem" id='gall' style={({ isActive }) =>
-              isActive ? activeStyle : undefined }>Gallery</NavLink>
             </div>
           </nav>
 
