@@ -7,7 +7,7 @@ import School from './Component/School'
 import Vacancy from './Component/Vacancy'
 import Navbar from './Component/Navbar'
 import HeadFlex from './Component/HeadFlex'
-
+import Footer from './Component/Footer'
 
 
 
@@ -25,7 +25,7 @@ function App() {
         <Route path='/School' element={<School/>} />
         <Route path='/Vacancy' element={<Vacancy/>} />
       </Routes>
-      
+      <Footer/>
    
     </>
   )

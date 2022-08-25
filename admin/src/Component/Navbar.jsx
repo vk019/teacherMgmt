@@ -7,8 +7,8 @@ function Navbar() {
  
   
   let activeStyle = {
-    textDecoration: "none",
-    color:"orange"
+    textDecoration: "underline",
+    color:"black"
   };
   return (
     <>
