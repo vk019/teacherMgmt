@@ -7,6 +7,7 @@ import School from './Component/School'
 import Vacancy from './Component/Vacancy'
 import Navbar from './Component/Navbar'
 import HeadFlex from './Component/HeadFlex'
+import Analytics from './Component/Analytics'
 
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path='/Teacher' element={<Teacher/>}/>
         <Route path='/School' element={<School/>} />
         <Route path='/Vacancy' element={<Vacancy/>} />
+        <Route path='/Analytics' element={<Analytics/>} />
       </Routes>
       
    

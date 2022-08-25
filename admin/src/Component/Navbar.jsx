@@ -18,9 +18,11 @@ function Navbar() {
           
           <nav className="navbar">
             <div className="List">
+              
 
               <NavLink to="/" className="listItem"  style={({ isActive }) =>
               isActive ? activeStyle : undefined}>Home</NavLink>
+              
 
 
               
@@ -36,6 +38,12 @@ function Navbar() {
               isActive ? activeStyle : undefined }> Manage Vacancy</NavLink>
               <NavLink to="/Calapp" className="listItem" id='cal' style={({ isActive }) =>
               isActive ? activeStyle : undefined } >Calendar</NavLink>
+
+              <NavLink to="/Analytics" className="listItem" id='ana' style={({ isActive }) =>
+              isActive ? activeStyle : undefined } > Analytics </NavLink>
+
+
+
               
             </div>
           </nav>
