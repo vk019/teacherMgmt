@@ -1,0 +1,40 @@
+/*To Make it look nice*/
+.foot {
+    
+    font-family: Cambria;
+    /*To make it so when the browser is small The font changes!*/
+    font-size: 1em;
+    color: grey;
+    justify-content: center;
+    align-content: space-between;
+    text-decoration: none;
+  }
+
+/*For the hover effect*/
+.foot:hover {
+    font-family: Cambria;
+    color: white;
+  }
+
+/*To Make it look nice and for positioning*/
+.Footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-content: space-between;
+    align-items: center;
+    text-decoration: none;
+  
+  }
+
+
+  
+
+  
+
+  
+  /*For the hover effect*/
+  link:hover {
+    color: white;
+  }
+  

@@ -6,6 +6,7 @@ import Calapp from './component/Calapp';
 import Profile from './component/Profile';
 import Logout from './component/Logout';
 import Vacancy from './component/Vacancy';
+import HeadFlex from './component/HeadFlex';
 
 
 
@@ -18,6 +19,7 @@ import {
 function App() {
   return (
     <>
+    <HeadFlex/>
      
     <Router>
     <Navbar/>

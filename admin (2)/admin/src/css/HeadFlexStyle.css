@@ -1,0 +1,27 @@
+.ccontainer{
+    width:100%;
+    height: fit-content;
+    
+}
+
+.ccontainer-flex{
+    margin:0;
+    margin-right: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items:stretch;
+}
+
+.logo-container{
+    margin:0;
+}
+
+.logog{
+    width: 300px;
+    padding:0.5em 0;
+}
+
+.logop{
+    width: 100px;
+    padding:0.5em 0;
+}
