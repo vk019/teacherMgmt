@@ -31,9 +31,9 @@ export default function Profile() {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-md-2">
+                   {/* <div className="col-md-2">
                         <input type="submit" className="profile-edit-btn" name="btnAddMore" value="Edit Profile"/>
-                    </div>
+                   </div> */}
                 </div>
                 <div className="row">
                     <div className="col-md-4">

@@ -4,7 +4,7 @@ import Home from './Component/Home'
 import Teacher from './Component/Teacher'
 import Calapp from './Component/Calapp'
 import School from './Component/School'
-import Gallery from './Component/Gallery'
+import Vacancy from './Component/Vacancy'
 import Navbar from './Component/Navbar'
 import HeadFlex from './Component/HeadFlex'
 
@@ -23,7 +23,7 @@ function App() {
         <Route path='/Calapp' element={<Calapp/>}/>
         <Route path='/Teacher' element={<Teacher/>}/>
         <Route path='/School' element={<School/>} />
-        <Route path='/Gallery' element={<Gallery/>} />
+        <Route path='/Vacancy' element={<Vacancy/>} />
       </Routes>
       
    
