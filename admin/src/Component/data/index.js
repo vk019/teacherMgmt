@@ -4,8 +4,9 @@ const employeesData = [
       firstName: 'Susan',
       lastName: 'Jordon',
       email: 'susan@example.com',
+      yop:'30/05/2013',
       
-      date: '2019-04-11',
+      date: '2015-05-01',
       exp: '7 ',
       qual: 'M.A,M.Ed',
       phone:'1234567890',
@@ -14,7 +15,7 @@ const employeesData = [
       nplace:'Pune',
       bgroup:'O+',
       cat:'Gen',
-      doj:'01/05/2015',
+      dor:'01/01/2048',
       salary:'90000',
       pscale:'Level 11',
       baccount:'***********772',
@@ -30,8 +31,21 @@ const employeesData = [
       edate3:'Null',
 
       rem1:'First posting , Good Conduct',
-      rem2:'Caught in bribe case',
-      rem3:'currently serving here'
+      rem2:'Caught in Malpractice case',
+      rem3:'currently serving here',
+      ndetails:'Alex(Son)',
+      cl1:4,
+      ml1:8,
+      cl2:2,
+      ml2:3,
+      cl3:4,
+      ml3:4,
+      tl1:12,
+      tl2:5,
+      tl3:8,
+      bl1:6,
+      bl2:14,
+      bl3:20
 
        
     },
@@ -42,6 +56,8 @@ const employeesData = [
       email: 'adrienne@example.com',
       salary: '80000',
       date: '2019-04-17',
+      yop:'30/05/2013',
+      
       exp: '7 ',
       qual: 'M.A,M.Ed',
       phone:'1234567890',
@@ -50,7 +66,7 @@ const employeesData = [
       nplace:'Pune',
       bgroup:'O+',
       cat:'Gen',
-      doj:'01/05/2015',
+      dor:'01/01/2048',
      
       pscale:'Level 11',
       baccount:'***********772',
@@ -66,8 +82,22 @@ const employeesData = [
       edate3:'Null',
 
       rem1:'First posting , Good Conduct',
-      rem2:'Caught in bribe case',
-      rem3:'currently serving here'
+      rem2:'Caught in Malpractice case',
+      rem3:'currently serving here',
+      ndetails:'Alex(Son)',
+      cl1:4,
+      ml1:8,
+      cl2:2,
+      ml2:3,
+      cl3:4,
+      ml3:4,
+      tl1:12,
+      tl2:5,
+      tl3:8,
+      bl1:6,
+      bl2:14,
+      bl3:20
+
     },
     {
       id: 3,
@@ -76,6 +106,8 @@ const employeesData = [
       email: 'rolf@example.com',
       salary: '79000',
       date: '2019-05-01',
+      yop:'30/05/2013',
+      
       exp: '7 ',
       qual: 'M.A,M.Ed',
       phone:'1234567890',
@@ -84,8 +116,7 @@ const employeesData = [
       nplace:'Pune',
       bgroup:'O+',
       cat:'Gen',
-      doj:'01/05/2015',
-     
+      dor:'01/01/2048',
       pscale:'Level 11',
       baccount:'***********772',
       bname:'Bank of Maharashtra',
@@ -100,8 +131,21 @@ const employeesData = [
       edate3:'Null',
 
       rem1:'First posting , Good Conduct',
-      rem2:'Caught in bribe case',
-      rem3:'currently serving here'
+      rem2:'Caught in Malpractice case',
+      rem3:'currently serving here',
+      ndetails:'Alex(Son)',
+      cl1:4,
+      ml1:8,
+      cl2:2,
+      ml2:3,
+      cl3:4,
+      ml3:4,
+      tl1:12,
+      tl2:5,
+      tl3:8,
+      bl1:6,
+      bl2:14,
+      bl3:20
     },
     {
       id: 4,
@@ -110,6 +154,8 @@ const employeesData = [
       email: 'kent@example.com',
       salary: '56000',
       date: '2019-05-03',
+      yop:'30/05/2013',
+      
       exp: '7 ',
       qual: 'M.A,M.Ed',
       phone:'1234567890',
@@ -118,7 +164,7 @@ const employeesData = [
       nplace:'Pune',
       bgroup:'O+',
       cat:'Gen',
-      doj:'01/05/2015',
+      dor:'01/01/2048',
       
       pscale:'Level 11',
       baccount:'***********772',
@@ -134,8 +180,21 @@ const employeesData = [
       edate3:'Null',
 
       rem1:'First posting , Good Conduct',
-      rem2:'Caught in bribe case',
-      rem3:'currently serving here'
+      rem2:'Caught in Malpractice case',
+      rem3:'currently serving here',
+      ndetails:'Alex(Son)',
+      cl1:4,
+      ml1:8,
+      cl2:2,
+      ml2:3,
+      cl3:4,
+      ml3:4,
+      tl1:12,
+      tl2:5,
+      tl3:8,
+      bl1:6,
+      bl2:14,
+      bl3:20
     },
     {
       id: 5,
@@ -144,6 +203,8 @@ const employeesData = [
       email: 'arsenio@example.com',
       salary: '65000',
       date: '2019-06-13',
+      yop:'30/05/2013',
+      
       exp: '7 ',
       qual: 'M.A,M.Ed',
       phone:'1234567890',
@@ -152,7 +213,7 @@ const employeesData = [
       nplace:'Pune',
       bgroup:'O+',
       cat:'Gen',
-      doj:'01/05/2015',
+      dor:'01/01/2048',
     
       pscale:'Level 11',
       baccount:'***********772',
@@ -168,8 +229,21 @@ const employeesData = [
       edate3:'Null',
 
       rem1:'First posting , Good Conduct',
-      rem2:'Caught in bribe case',
-      rem3:'currently serving here'
+      rem2:'Caught in Malpractice case',
+      rem3:'currently serving here',
+      ndetails:'Alex(Son)',
+      cl1:4,
+      ml1:8,
+      cl2:2,
+      ml2:3,
+      cl3:4,
+      ml3:4,
+      tl1:12,
+      tl2:5,
+      tl3:8,
+      bl1:6,
+      bl2:14,
+      bl3:20
     },
     {
       id: 6,
@@ -178,6 +252,8 @@ const employeesData = [
       email: 'laurena@example.com',
       salary: '120000',
       date: '2019-07-30',
+      yop:'30/05/2013',
+      
       exp: '7 ',
       qual: 'M.A,M.Ed',
       phone:'1234567890',
@@ -186,7 +262,7 @@ const employeesData = [
       nplace:'Pune',
       bgroup:'O+',
       cat:'Gen',
-      doj:'01/05/2015',
+      dor:'01/01/2048',
 
       pscale:'Level 11',
       baccount:'***********772',
@@ -202,8 +278,21 @@ const employeesData = [
       edate3:'Null',
 
       rem1:'First posting , Good Conduct',
-      rem2:'Caught in bribe case',
-      rem3:'currently serving here'
+      rem2:'Caught in Malpractice case',
+      rem3:'currently serving here',
+      ndetails:'Alex(Son)',
+      cl1:4,
+      ml1:8,
+      cl2:2,
+      ml2:3,
+      cl3:4,
+      ml3:4,
+      tl1:12,
+      tl2:5,
+      tl3:8,
+      bl1:6,
+      bl2:14,
+      bl3:20
     },
     {
       id: 7,
@@ -212,6 +301,8 @@ const employeesData = [
       email: 'george@example.com',
       salary: '90000',
       date: '2019-08-15',
+      yop:'30/05/2013',
+      
       exp: '7 ',
       qual: 'M.A,M.Ed',
       phone:'1234567890',
@@ -220,7 +311,7 @@ const employeesData = [
       nplace:'Pune',
       bgroup:'O+',
       cat:'Gen',
-      doj:'01/05/2015',
+      dor:'01/01/2048',
    
       pscale:'Level 11',
       baccount:'***********772',
@@ -236,8 +327,21 @@ const employeesData = [
       edate3:'Null',
 
       rem1:'First posting , Good Conduct',
-      rem2:'Caught in bribe case',
-      rem3:'currently serving here'
+      rem2:'Caught in Malpractice case',
+      rem3:'currently serving here',
+      ndetails:'Alex(Son)',
+      cl1:4,
+      ml1:8,
+      cl2:2,
+      ml2:3,
+      cl3:4,
+      ml3:4,
+      tl1:12,
+      tl2:5,
+      tl3:8,
+      bl1:6,
+      bl2:14,
+      bl3:20
     },
     {
       id: 8,
@@ -246,6 +350,8 @@ const employeesData = [
       email: 'jesica@example.com',
       salary: '60000',
       date: '2019-10-10',
+      yop:'30/05/2013',
+      
       exp: '7 ',
       qual: 'M.A,M.Ed',
       phone:'1234567890',
@@ -254,7 +360,7 @@ const employeesData = [
       nplace:'Pune',
       bgroup:'O+',
       cat:'Gen',
-      doj:'01/05/2015',
+      dor:'01/01/2048',
       
       pscale:'Level 11',
       baccount:'***********772',
@@ -270,8 +376,21 @@ const employeesData = [
       edate3:'Null',
 
       rem1:'First posting , Good Conduct',
-      rem2:'Caught in bribe case',
-      rem3:'currently serving here'
+      rem2:'Caught in Malpractice case',
+      rem3:'currently serving here',
+      ndetails:'Alex(Son)',
+      cl1:4,
+      ml1:8,
+      cl2:2,
+      ml2:3,
+      cl3:4,
+      ml3:4,
+      tl1:12,
+      tl2:5,
+      tl3:8,
+      bl1:6,
+      bl2:14,
+      bl3:20
     },
     {
       id: 9,
@@ -280,6 +399,8 @@ const employeesData = [
       email: 'matthew@example.com',
       salary: '71000',
       date: '2019-10-15',
+      yop:'30/05/2013',
+      
       exp: '7 ',
       qual: 'M.A,M.Ed',
       phone:'1234567890',
@@ -288,7 +409,7 @@ const employeesData = [
       nplace:'Pune',
       bgroup:'O+',
       cat:'Gen',
-      doj:'01/05/2015',
+      dor:'01/01/2048',
       pscale:'Level 11',
       baccount:'***********772',
       bname:'Bank of Maharashtra',
@@ -303,8 +424,21 @@ const employeesData = [
       edate3:'Null',
 
       rem1:'First posting , Good Conduct',
-      rem2:'Caught in bribe case',
-      rem3:'currently serving here'
+      rem2:'Caught in Malpractice case',
+      rem3:'currently serving here',
+      ndetails:'Alex(Son)',
+      cl1:4,
+      ml1:8,
+      cl2:2,
+      ml2:3,
+      cl3:4,
+      ml3:4,
+      tl1:12,
+      tl2:5,
+      tl3:8,
+      bl1:6,
+      bl2:14,
+      bl3:20
     },
     {
       id: 10,
@@ -313,6 +447,8 @@ const employeesData = [
       email: 'lyndsey@example.com',
       salary: '110000',
       date: '2020-01-15',
+      yop:'30/05/2013',
+      
       exp: '7 ',
       qual: 'M.A,M.Ed',
       phone:'1234567890',
@@ -321,7 +457,7 @@ const employeesData = [
       nplace:'Pune',
       bgroup:'O+',
       cat:'Gen',
-      doj:'01/05/2015',
+      dor:'01/01/2048',
       
       pscale:'Level 11',
       baccount:'***********772',
@@ -337,8 +473,22 @@ const employeesData = [
       edate3:'Null',
 
       rem1:'First posting , Good Conduct',
-      rem2:'Caught in bribe case',
-      rem3:'currently serving here'
+      rem2:'Caught in Malpractice case',
+      rem3:'currently serving here',
+      ndetails:'Alex(Son)',
+      cl1:4,
+      ml1:8,
+      cl2:2,
+      ml2:3,
+      cl3:4,
+      ml3:4,
+      tl1:12,
+      tl2:5,
+      tl3:8,
+      bl1:6,
+      bl2:14,
+      bl3:20
+
     }
   ];
   

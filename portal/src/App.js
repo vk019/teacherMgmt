@@ -6,6 +6,7 @@ import Calapp from './component/Calapp';
 import Profile from './component/Profile';
 import Logout from './component/Logout';
 import Vacancy from './component/Vacancy';
+import Home from './component/Home';
 
 
 
@@ -14,6 +15,7 @@ import {
   Routes,
   Route
   } from "react-router-dom";
+
 
 function App() {
   return (
@@ -27,6 +29,11 @@ function App() {
           <Route exact path="/News" element={<News/>}>
           </Route>
           </Routes>
+         
+    < Routes>
+    <Route exact path="/Home" element={<Home/>}>
+    </Route>
+    </Routes>
           <Routes>
         <Route exact path="/Profile" element={<Profile/>}></Route>
       </Routes>

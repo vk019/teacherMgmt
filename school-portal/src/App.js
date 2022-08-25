@@ -7,6 +7,7 @@ import Profile from './component/Profile';
 import Logout from './component/Logout';
 import EmployeeDetail from './component/EmployeeDetail';
 import CreateVacancy from './component/CreateVacancy';
+import Home from './component/Home';
 
 import {
   BrowserRouter as Router,
@@ -23,6 +24,10 @@ function App() {
     <div>
       <Routes>
           <Route exact path="/News" element={<News/>}>
+          </Route>
+          </Routes>
+          <Routes>
+          <Route exact path="/Home.js" element={<Home/>}>
           </Route>
           </Routes>
           <Routes>

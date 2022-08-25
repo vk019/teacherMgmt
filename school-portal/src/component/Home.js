@@ -1,10 +1,9 @@
 import React from 'react'
-import '../css/home.css'
 
-function Home() {
+export default function Home() {
   return (
     <>
-    <div>
+     <div>
       <section id="home">
         <div className="container">
           <div className="row justify-content-center">
@@ -38,8 +37,9 @@ function Home() {
         </div>
       </section>
     </div>
+    
+    
+    
     </>
   )
 }
-
-export default Home
