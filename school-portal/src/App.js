@@ -7,7 +7,7 @@ import Profile from './component/Profile';
 import Logout from './component/Logout';
 import EmployeeDetail from './component/EmployeeDetail';
 import CreateVacancy from './component/CreateVacancy';
-
+import Headflex from './component/HeadFlex'
 import {
   BrowserRouter as Router,
   Routes,
@@ -17,6 +17,7 @@ import {
 function App() {
   return (
     <>
+    <Headflex/>
      
     <Router>
     <Navbar/>

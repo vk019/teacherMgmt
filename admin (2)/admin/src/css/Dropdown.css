@@ -1,0 +1,52 @@
+.teacher-submenu{
+    width:12rem;
+    position:absolute;
+    top:3rem;
+    left:14rem;
+    list-style:none;
+    text-align: start;
+}
+
+.teacher-submenu li{
+    background:rgb(240, 175, 165);
+    cursor:pointer;
+
+}
+
+.teacher-submenu.clicked
+{
+    display:none;
+}
+
+.submenu-item{
+    display: block;
+    width:100%;
+    text-decoration: none;
+    color:rgb(10, 7, 1);
+    padding:8px;
+    font-weight:bold;
+}
+
+.submenu-item:hover
+{
+    background:rgb(235, 46, 46);
+    color : orange;
+    
+
+}
+
+@media screen and (max-width:568px){
+    .login-submenu{
+        width:12rem;
+        top:1vw;
+        right:5px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .login-submenu{
+        width:12rem;
+        top:149px;
+        right:5px;
+    }
+}

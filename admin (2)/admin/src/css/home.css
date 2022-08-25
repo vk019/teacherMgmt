@@ -3,14 +3,3 @@
     background: linear-gradient(90deg, rgb(173, 189, 223) 50%, rgb(229, 231, 236)100%);
     min-height : 500px;
 }
-
-.acontainer{
-    margin:2rem;
-    padding:2rem;
-}
-
-.holder{
-    
-    padding-left:10%;
-    padding-right:10%;
-}

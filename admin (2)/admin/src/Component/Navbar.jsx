@@ -7,8 +7,8 @@ function Navbar() {
  
   
   let activeStyle = {
-    textDecoration: "underline",
-    color:"black"
+    textDecoration: "none",
+    color:"orange"
   };
   return (
     <>
@@ -18,11 +18,9 @@ function Navbar() {
           
           <nav className="navbar">
             <div className="List">
-              
 
               <NavLink to="/" className="listItem"  style={({ isActive }) =>
               isActive ? activeStyle : undefined}>Home</NavLink>
-              
 
 
               
@@ -33,18 +31,12 @@ function Navbar() {
 
               <NavLink to="/School" className="listItem" id='sch'style={({ isActive }) =>
               isActive ? activeStyle : undefined }>Manage Schools</NavLink>
-              
-              <NavLink to="/Vacancy" className="listItem" id='vac' style={({ isActive }) =>
-              isActive ? activeStyle : undefined }> Manage Vacancy</NavLink>
               <NavLink to="/Calapp" className="listItem" id='cal' style={({ isActive }) =>
               isActive ? activeStyle : undefined } >Calendar</NavLink>
-
-              <NavLink to="/Analytics" className="listItem" id='ana' style={({ isActive }) =>
-              isActive ? activeStyle : undefined } > Analytics </NavLink>
-
-
-
               
+              
+              <NavLink to="/Gallery" className="listItem" id='gall' style={({ isActive }) =>
+              isActive ? activeStyle : undefined }>Gallery</NavLink>
             </div>
           </nav>
 
