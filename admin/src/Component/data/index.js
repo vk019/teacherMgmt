@@ -40,12 +40,35 @@ const employeesData = [
       ml2:3,
       cl3:4,
       ml3:4,
+      cl4:1,
+      ml4:2,
+      cl5:7,
+      ml5:3,
+      cl6:5,
+      ml6:13,
+
       tl1:12,
       tl2:5,
       tl3:8,
       bl1:6,
       bl2:14,
-      bl3:20
+      bl3:20,
+      bl4:29,
+      bl5:32,
+      bl6:37,
+      Tname1:'MEITY Teacher Skill Enhancement Programme',
+      Tname2:'Govt. of Maharashtra Skill Improvement Training',
+      Tname3:'Govt. of India New Trends in Education Seminar',
+      oname1:'MEITY',
+      oname2:'Govt. of Maharashtra',
+      oname3:'Govt. of India',
+      ts1:'15/09/2016',
+      ts2:'21/02/2017',
+      ts3:'01/09/2021',
+      te1:'21/09/2016',
+      te2:'28/02/2017',
+      te3:'12/09,2021',
+      ncon:'0987654321'
 
        
     },
@@ -96,7 +119,21 @@ const employeesData = [
       tl3:8,
       bl1:6,
       bl2:14,
-      bl3:20
+      bl3:20,
+      Tname1:'MEITY Teacher Skill Enhancement Programme',
+      Tname2:'Govt. of Maharashtra Skill Improvement Training',
+      Tname3:'Govt. of India New Trends in Education Seminar',
+      oname1:'MEITY',
+      oname2:'Govt. of Maharashtra',
+      oname3:'Govt. of India',
+      ts1:'15/09/2016',
+      ts2:'21/02/2017',
+      ts3:'01/09/2021',
+      te1:'21/09/2016',
+      te2:'28/02/2017',
+      te3:'12/09,2021',
+      ncon:'0987654321'
+
 
     },
     {
@@ -145,7 +182,21 @@ const employeesData = [
       tl3:8,
       bl1:6,
       bl2:14,
-      bl3:20
+      bl3:20,
+      Tname1:'MEITY Teacher Skill Enhancement Programme',
+      Tname2:'Govt. of Maharashtra Skill Improvement Training',
+      Tname3:'Govt. of India New Trends in Education Seminar',
+      oname1:'MEITY',
+      oname2:'Govt. of Maharashtra',
+      oname3:'Govt. of India',
+      ts1:'15/09/2016',
+      ts2:'21/02/2017',
+      ts3:'01/09/2021',
+      te1:'21/09/2016',
+      te2:'28/02/2017',
+      te3:'12/09,2021',
+      ncon:'0987654321'
+
     },
     {
       id: 4,
@@ -194,7 +245,21 @@ const employeesData = [
       tl3:8,
       bl1:6,
       bl2:14,
-      bl3:20
+      bl3:20,
+      Tname1:'MEITY Teacher Skill Enhancement Programme',
+      Tname2:'Govt. of Maharashtra Skill Improvement Training',
+      Tname3:'Govt. of India New Trends in Education Seminar',
+      oname1:'MEITY',
+      oname2:'Govt. of Maharashtra',
+      oname3:'Govt. of India',
+      ts1:'15/09/2016',
+      ts2:'21/02/2017',
+      ts3:'01/09/2021',
+      te1:'21/09/2016',
+      te2:'28/02/2017',
+      te3:'12/09,2021',
+      ncon:'0987654321'
+
     },
     {
       id: 5,
@@ -243,7 +308,21 @@ const employeesData = [
       tl3:8,
       bl1:6,
       bl2:14,
-      bl3:20
+      bl3:20,
+      Tname1:'MEITY Teacher Skill Enhancement Programme',
+      Tname2:'Govt. of Maharashtra Skill Improvement Training',
+      Tname3:'Govt. of India New Trends in Education Seminar',
+      oname1:'MEITY',
+      oname2:'Govt. of Maharashtra',
+      oname3:'Govt. of India',
+      ts1:'15/09/2016',
+      ts2:'21/02/2017',
+      ts3:'01/09/2021',
+      te1:'21/09/2016',
+      te2:'28/02/2017',
+      te3:'12/09,2021',
+      ncon:'0987654321'
+
     },
     {
       id: 6,
@@ -292,7 +371,21 @@ const employeesData = [
       tl3:8,
       bl1:6,
       bl2:14,
-      bl3:20
+      bl3:20,
+      Tname1:'MEITY Teacher Skill Enhancement Programme',
+      Tname2:'Govt. of Maharashtra Skill Improvement Training',
+      Tname3:'Govt. of India New Trends in Education Seminar',
+      oname1:'MEITY',
+      oname2:'Govt. of Maharashtra',
+      oname3:'Govt. of India',
+      ts1:'15/09/2016',
+      ts2:'21/02/2017',
+      ts3:'01/09/2021',
+      te1:'21/09/2016',
+      te2:'28/02/2017',
+      te3:'12/09,2021',
+      ncon:'0987654321'
+
     },
     {
       id: 7,
@@ -341,7 +434,21 @@ const employeesData = [
       tl3:8,
       bl1:6,
       bl2:14,
-      bl3:20
+      bl3:20,
+      Tname1:'MEITY Teacher Skill Enhancement Programme',
+      Tname2:'Govt. of Maharashtra Skill Improvement Training',
+      Tname3:'Govt. of India New Trends in Education Seminar',
+      oname1:'MEITY',
+      oname2:'Govt. of Maharashtra',
+      oname3:'Govt. of India',
+      ts1:'15/09/2016',
+      ts2:'21/02/2017',
+      ts3:'01/09/2021',
+      te1:'21/09/2016',
+      te2:'28/02/2017',
+      te3:'12/09,2021',
+      ncon:'0987654321'
+
     },
     {
       id: 8,
@@ -390,7 +497,21 @@ const employeesData = [
       tl3:8,
       bl1:6,
       bl2:14,
-      bl3:20
+      bl3:20,
+      Tname1:'MEITY Teacher Skill Enhancement Programme',
+      Tname2:'Govt. of Maharashtra Skill Improvement Training',
+      Tname3:'Govt. of India New Trends in Education Seminar',
+      oname1:'MEITY',
+      oname2:'Govt. of Maharashtra',
+      oname3:'Govt. of India',
+      ts1:'15/09/2016',
+      ts2:'21/02/2017',
+      ts3:'01/09/2021',
+      te1:'21/09/2016',
+      te2:'28/02/2017',
+      te3:'12/09,2021',
+      ncon:'0987654321'
+
     },
     {
       id: 9,
@@ -438,7 +559,20 @@ const employeesData = [
       tl3:8,
       bl1:6,
       bl2:14,
-      bl3:20
+      bl3:20,
+      Tname1:'MEITY Teacher Skill Enhancement Programme',
+      Tname2:'Govt. of Maharashtra Skill Improvement Training',
+      Tname3:'Govt. of India New Trends in Education Seminar',
+      oname1:'MEITY',
+      oname2:'Govt. of Maharashtra',
+      oname3:'Govt. of India',
+      ts1:'15/09/2016',
+      ts2:'21/02/2017',
+      ts3:'01/09/2021',
+      te1:'21/09/2016',
+      te2:'28/02/2017',
+      te3:'12/09,2021',
+      ncon:'0987654321'
     },
     {
       id: 10,
@@ -487,7 +621,21 @@ const employeesData = [
       tl3:8,
       bl1:6,
       bl2:14,
-      bl3:20
+      bl3:20,
+      Tname1:'MEITY Teacher Skill Enhancement Programme',
+      Tname2:'Govt. of Maharashtra Skill Improvement Training',
+      Tname3:'Govt. of India New Trends in Education Seminar',
+      oname1:'MEITY',
+      oname2:'Govt. of Maharashtra',
+      oname3:'Govt. of India',
+      ts1:'15/09/2016',
+      ts2:'21/02/2017',
+      ts3:'01/09/2021',
+      te1:'21/09/2016',
+      te2:'28/02/2017',
+      te3:'12/09,2021',
+      ncon:'0987654321'
+
 
     }
   ];
