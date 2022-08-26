@@ -5,23 +5,22 @@ import Header from './Header';
 import List from './List';
 import Add from './Add';
 import Edit from './Edit';
-import Editleave from './Editleave';
+
 
 import { employeesData } from '../data/index';
-import { leavesData } from './Lindex';
 import View from './View';
 
 function Dashboard() {
 
     const [employees, setEmployees] = useState(employeesData);
-    const [leaves, setLeaves] = useState(leavesData);
+   
     const [selectedEmployee, setSelectedEmployee] = useState(null);
-    const [selectedLeave, setSelectedLeave] = useState(null);
+    
     const [isAdding, setIsAdding] = useState(false);
     const [isEditing, setIsEditing] = useState(false);
-    const [isLEditing, setIsLEditing] = useState(false);
+    
     const [isViewing, setIsViewing] = useState(false);
-    const [isLViewing, setIsLViewing] = useState(false);
+  
 
     const handleEdit = (id) => {
         const [employee] = employees.filter(employee => employee.id === id);
@@ -29,24 +28,14 @@ function Dashboard() {
         setSelectedEmployee(employee);
         setIsEditing(true);
     }
-    const handleLEdit = (id) => {
-        const [leave] = leaves.filter(leave => leave.id === id);
-
-        setSelectedLeave(leave);
-        setIsLEditing(true);
-    }
+   
     const handleView = (id) => {
         const [employee] = employees.filter(employee => employee.id === id);
 
         setSelectedEmployee(employee);
         setIsViewing(true);
     }
-    const handleLView = (id) => {
-        const [leave] = leaves.filter(leave => leave.id === id);
-
-        setSelectedLeave(leave);
-        setIsViewing(true);
-    }
+    
     const handleDelete = (id) => {
         Swal.fire({
             icon: 'warning',
@@ -83,8 +72,10 @@ function Dashboard() {
                     />
                     <List
                         employees={employees}
-                        leaves={leaves}
+                      
                         handleEdit={handleEdit}
+                       
+
                         
                         handleDelete={handleDelete}
                         handleView={handleView}
@@ -111,27 +102,16 @@ function Dashboard() {
                 />
                 
             )}
-                        {/* LEdit */}
-                        {isLEditing && (
-                   <Editleave
-                    leaves={leaves}
-                    selectedLeave={selectedLeave}
-                    setLeaves={setLeaves}
-                    setIsLEditing={setIsLEditing}
-                />
-                
-            )}
+                      
              {/* View */}
              {isViewing &&  (
                 <View
                     employees={employees}
-                    leaves={leaves}
+                    
                    
-                    selectedLeave={selectedLeave}
                     selectedEmployee={selectedEmployee}
                     
                     setEmployees={setEmployees}
-                    setLeaves={setLeaves}
                     
                
                 />

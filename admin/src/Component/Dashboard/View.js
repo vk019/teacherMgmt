@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Swal from "sweetalert2";
 
-function View({ employees,leaves,handleLEdit, selectedEmployee,selectedVacancy,setVacancy, setEmployees, setIsViewing,setIsLViewing }) {
+function View({ employees,leaves,selectedEmployee,setEmployees,setIsViewing }) {
   const id = selectedEmployee.id;
   
 
@@ -428,51 +428,81 @@ function View({ employees,leaves,handleLEdit, selectedEmployee,selectedVacancy,s
           <th scope="col">No. of Casual Leaves</th>
           <th scope="col">No. of Medical Leaves</th>
           <th scope="col">Balance Leaves </th>
-          <th colSpan={2} className="text-center">
-                            Actions
-                        </th>
           
           
         </tr>
       </thead>
      
       <tbody>
-      {leaves.length > 0 ? (
-                        leaves.map((leave, i) => (
-                            <tr key={leave.id}>
-                                <td>{i + 1}</td>
-                                <td>{leave.ay}</td>
-                                <td>{leave.acl}</td>
-                                <td>{leave.ncl}</td>
-                                <td>{leave.nml}</td>
-                                <td>{leave.bl} </td>
-                               
-                                <td className="text-right">
-                                    <button
-                                        onClick={() => handleLEdit(leave.id)}
-                                        className="button muted-button"
-                                    >
-                                        Edit
-                                    </button>
-                                </td>
-                                
-                              
-                               
-                            </tr>
-                        ))
-                    ) : (
-                        <tr>
-                            <td colSpan={7}>No Employees</td>
-                        </tr>
-                    )}
+    
+     <tr>
+      <th scope="row">1</th>
+      <td>2015-2016</td>
+      <td>10</td>
+      <td>{selectedEmployee.cl1}</td>
+      <td>{selectedEmployee.ml1}</td>
+      <td>{selectedEmployee.bl1}</td>
+      
+     
+      
+    </tr>  
+    <tr>
+      <th scope="row">2</th>
+      <td>2016-2017</td>
+      <td>10</td>
+      <td>{selectedEmployee.cl2}</td>
+      <td>{selectedEmployee.ml2}</td>
+      <td>{selectedEmployee.bl2}</td>
+     
+      
+    </tr> 
+    <tr>
+      <th scope="row">3</th>
+      <td>2017-2018</td>
+      <td>10</td>
+      <td>{selectedEmployee.cl3}</td>
+      <td>{selectedEmployee.ml3}</td>
+      <td>{selectedEmployee.bl3}</td>
+     
+      
+    </tr>               
+    <tr>
+      <th scope="row">4</th>
+      <td>2018-2019</td>
+      <td>10</td>
+      <td>{selectedEmployee.cl4}</td>
+      <td>{selectedEmployee.ml4}</td>
+      <td>{selectedEmployee.bl4}</td>
+     
+     
+    </tr>     
+    <tr>
+      <th scope="row">5</th>
+      <td>2019-2020</td>
+      <td>10</td>
+      <td>{selectedEmployee.cl5}</td>
+      <td>{selectedEmployee.ml5}</td>
+      <td>{selectedEmployee.bl5}</td>
+     
+     
+    </tr> 
+    <tr>
+      <th scope="row">6</th>
+      <td>2020-2021</td>
+      <td>10</td>
+      <td>{selectedEmployee.cl6}</td>
+      <td>{selectedEmployee.ml6}</td>
+      <td>{selectedEmployee.bl6}</td>
+     
+     
+    </tr>              
+                          
+                        
+                    
                 </tbody>
             </table>
         </div>
-    
-
-   
-
-        <div style={{ marginTop: "30px" }}>
+    <div style={{ marginTop: "30px" }}>
           <input
             style={{ marginLeft: "12px" }}
             className="muted-button"

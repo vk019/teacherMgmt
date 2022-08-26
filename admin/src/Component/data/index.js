@@ -56,7 +56,7 @@ const employeesData = [
       bl3:20,
       bl4:29,
       bl5:32,
-      bl6:40,
+      bl6:37,
       Tname1:'MEITY Teacher Skill Enhancement Programme',
       Tname2:'Govt. of Maharashtra Skill Improvement Training',
       Tname3:'Govt. of India New Trends in Education Seminar',
