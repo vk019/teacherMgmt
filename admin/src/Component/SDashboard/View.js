@@ -56,7 +56,7 @@ function View({ schools, selectedSchool, setSchool, setIsViewing }) {
                 <p>{selectedSchool.email}</p>
                 <label>Budget</label>
                 <p>{selectedSchool.budget}</p>
-                <label >Income($)</label>
+                <label >Income(₹)</label>
                <p>{selectedSchool.income}</p>
                 <label >Date</label>
               <p>{selectedSchool.date}</p>

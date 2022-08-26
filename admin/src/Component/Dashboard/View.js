@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import Swal from "sweetalert2";
 
-function View({ employees, selectedEmployee, setEmployees, setIsViewing }) {
+function View({ employees,leaves,handleLEdit, selectedEmployee,selectedVacancy,setVacancy, setEmployees, setIsViewing,setIsLViewing }) {
   const id = selectedEmployee.id;
+  
 
-  const [firstName, setFirstName] = useState(selectedEmployee.firstName);
-  const [lastName, setLastName] = useState(selectedEmployee.lastName);
+  const [firstName, setfirstName] = useState(selectedEmployee.firstName);
+  const [lastName, setlastName] = useState(selectedEmployee.lastName);
+  
   const [email, setEmail] = useState(selectedEmployee.email);
   const [salary, setSalary] = useState(selectedEmployee.salary);
   const [date, setDate] = useState(selectedEmployee.date);
@@ -69,6 +71,11 @@ function View({ employees, selectedEmployee, setEmployees, setIsViewing }) {
   const [te2,sette2] = useState(selectedEmployee.te2);
   const [te3,sette3] = useState(selectedEmployee.te3);
   const [ncon,setncon] = useState(selectedEmployee.ncon);
+  const [spname,setspname] = useState(selectedEmployee.spname);
+  const [ms,setms] = useState(selectedEmployee.ms);
+  const [r1,setr1] = useState(selectedEmployee.r1);
+  const [r2,setr2] = useState(selectedEmployee.r2);
+  const [r3,setr3] = useState(selectedEmployee.r3);
 
   const handleView = (e) => {
     e.preventDefault();
@@ -89,6 +96,8 @@ function View({ employees, selectedEmployee, setEmployees, setIsViewing }) {
       !cat ||
       !qual ||
       !exp ||
+      !spname||
+      !ms||!r1||!r2||!r3||
       !ndetails||!ncon||!tl1||!tl2||!tl3||!yop||!bl1||!bl2||!bl3||!cl4||!cl5||!cl6||!ml4||!ml5||!ml6||!bl4|!bl5||!bl6||!Tname1||!Tname2||!Tname3||!oname1||!oname2||!oname3||!ts1||!ts2||!ts3||!te1||!te2||!te3||
       !dob||!s1name||!s2name||!s3name||!sdate1||!sdate2||!sdate3||!edate1||!edate2||!edate3||!rem1||!rem2||!rem3||!cl1||!ml1||!cl2||!ml2||!cl3||!ml3
     ) {
@@ -99,6 +108,7 @@ function View({ employees, selectedEmployee, setEmployees, setIsViewing }) {
         showConfirmButton: true,
       });
     }
+    
 
     const employee = {
       id,
@@ -118,9 +128,12 @@ function View({ employees, selectedEmployee, setEmployees, setIsViewing }) {
       nplace,
       baccount,
       cat,
+      ms,
+      spname,r1,r2,r3,
       ndetails,tl1,tl2,tl3,yop,bl1,bl2,bl3,cl4,bl4,cl5,bl5,cl6,bl6,ml4,ml5,ml6,Tname1,Tname2,Tname3,oname1,oname2,oname3,ts1,ts2,ts3,te1,te2,te3,
       sdate1,sdate2,sdate3,edate1,edate2,edate3,s1name,s2name,s3name,rem1,rem2,rem3,cl1,ml1,ml2,ml3,cl2,cl3
     };
+    
 
     for (let i = 0; i < employees.length; i++) {
       if (employees[i].id === id) {
@@ -197,6 +210,22 @@ function View({ employees, selectedEmployee, setEmployees, setIsViewing }) {
           </div>
           <div className="col-md-6">
             <label>{selectedEmployee.bgroup}</label>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-6">
+            <label>Marital Status</label>
+          </div>
+          <div className="col-md-6">
+            <label>{selectedEmployee.ms}</label>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-6">
+            <label>Spouse Name</label>
+          </div>
+          <div className="col-md-6">
+            <label>{selectedEmployee.spname}</label>
           </div>
         </div>
         <h3>Professional Details</h3>
@@ -348,7 +377,7 @@ function View({ employees, selectedEmployee, setEmployees, setIsViewing }) {
       <th scope="col">Start Date</th>
       <th scope="col">End Date</th>
       <th scope="col">Total No.  of  Leaves Taken</th>
-      
+      <th scope="col">Transfer or Promotion</th>
       <th scope="col">Remarks</th>
     </tr>
   </thead>
@@ -359,6 +388,7 @@ function View({ employees, selectedEmployee, setEmployees, setIsViewing }) {
       <td>{selectedEmployee.sdate1}</td>
       <td>{selectedEmployee.edate1}</td>
       <td>{selectedEmployee.tl1}</td>
+      <td>{selectedEmployee.r1}</td>
       
       <td>{selectedEmployee.rem1}</td>
 
@@ -369,6 +399,7 @@ function View({ employees, selectedEmployee, setEmployees, setIsViewing }) {
       <td>{selectedEmployee.sdate2}</td>
       <td>{selectedEmployee.edate2}</td>
       <td>{selectedEmployee.tl2}</td>
+      <td>{selectedEmployee.r2}</td>
      
       <td>{selectedEmployee.rem2}</td>
     </tr>
@@ -378,6 +409,7 @@ function View({ employees, selectedEmployee, setEmployees, setIsViewing }) {
       <td>{selectedEmployee.sdate3}</td>
       <td>{selectedEmployee.edate3}</td>
       <td>{selectedEmployee.tl3}</td>
+      <td>{selectedEmployee.r3}</td>
      
       <td>{selectedEmployee.rem3}</td>
     </tr>
@@ -396,69 +428,49 @@ function View({ employees, selectedEmployee, setEmployees, setIsViewing }) {
           <th scope="col">No. of Casual Leaves</th>
           <th scope="col">No. of Medical Leaves</th>
           <th scope="col">Balance Leaves </th>
+          <th colSpan={2} className="text-center">
+                            Actions
+                        </th>
           
           
         </tr>
       </thead>
+     
       <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>2015-2016</td>
-          <td>10</td>
-          <td>{selectedEmployee.cl1}</td>
-          <td>{selectedEmployee.ml1}</td>
-          
-          <td>{selectedEmployee.bl1}</td>
+      {leaves.length > 0 ? (
+                        leaves.map((leave, i) => (
+                            <tr key={leave.id}>
+                                <td>{i + 1}</td>
+                                <td>{leave.ay}</td>
+                                <td>{leave.acl}</td>
+                                <td>{leave.ncl}</td>
+                                <td>{leave.nml}</td>
+                                <td>{leave.bl} </td>
+                               
+                                <td className="text-right">
+                                    <button
+                                        onClick={() => handleLEdit(leave.id)}
+                                        className="button muted-button"
+                                    >
+                                        Edit
+                                    </button>
+                                </td>
+                                
+                              
+                               
+                            </tr>
+                        ))
+                    ) : (
+                        <tr>
+                            <td colSpan={7}>No Employees</td>
+                        </tr>
+                    )}
+                </tbody>
+            </table>
+        </div>
     
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>2016-2017</td>
-          <td>10</td>
-          <td>{selectedEmployee.cl2}</td>
-          <td>{selectedEmployee.ml2}</td>
-         
-          <td>{selectedEmployee.bl2}</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>2017-2018</td>
-          <td>10</td>
-          <td>{selectedEmployee.cl3}</td>
-          <td>{selectedEmployee.ml3}</td>
-         
-          <td>{selectedEmployee.bl3}</td>
-        </tr>
-        <tr>
-          <th scope="row">4</th>
-          <td>2018-2019</td>
-          <td>10</td>
-          <td>{selectedEmployee.cl4}</td>
-          <td>{selectedEmployee.ml4}</td>
-         
-          <td>{selectedEmployee.bl4}</td>
-        </tr>
-        <tr>
-          <th scope="row">5</th>
-          <td>2019-2020</td>
-          <td>10</td>
-          <td>{selectedEmployee.cl5}</td>
-          <td>{selectedEmployee.ml5}</td>
-         
-          <td>{selectedEmployee.bl5}</td>
-        </tr>
-        <tr>
-          <th scope="row">6</th>
-          <td>2020-2021</td>
-          <td>10</td>
-          <td>{selectedEmployee.cl6}</td>
-          <td>{selectedEmployee.ml6}</td>
-         
-          <td>{selectedEmployee.bl6}</td>
-        </tr>
-      </tbody>
-    </table>
-    </div>
+
+   
 
         <div style={{ marginTop: "30px" }}>
           <input

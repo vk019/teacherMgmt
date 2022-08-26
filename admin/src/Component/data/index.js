@@ -1,17 +1,18 @@
 const employeesData = [
     {
       id: 1,
-      firstName: 'Susan',
-      lastName: 'Jordon',
-      email: 'susan@example.com',
+      firstName: 'Aditya ',
+      lastName: 'Phadtare',
+      email: 'phadtare@example.com',
       yop:'30/05/2013',
+
       
       date: '2015-05-01',
       exp: '7 ',
       qual: 'M.A,M.Ed',
       phone:'1234567890',
       dob:'01/01/1990',
-      gender:'F',
+      gender:'M',
       nplace:'Pune',
       bgroup:'O+',
       cat:'Gen',
@@ -55,7 +56,7 @@ const employeesData = [
       bl3:20,
       bl4:29,
       bl5:32,
-      bl6:37,
+      bl6:40,
       Tname1:'MEITY Teacher Skill Enhancement Programme',
       Tname2:'Govt. of Maharashtra Skill Improvement Training',
       Tname3:'Govt. of India New Trends in Education Seminar',
@@ -68,7 +69,15 @@ const employeesData = [
       te1:'21/09/2016',
       te2:'28/02/2017',
       te3:'12/09,2021',
-      ncon:'0987654321'
+      ncon:'0987654321',
+      ms:'Married',
+      spname:'Shivanjali Phadtare',
+      r1:'Routine Transfer to XYZ school',
+      r2:'Promoted From Teacher to Supervisor',
+      r3:'Routine Transfer to QWE School '
+
+
+
 
        
     },
@@ -132,7 +141,13 @@ const employeesData = [
       te1:'21/09/2016',
       te2:'28/02/2017',
       te3:'12/09,2021',
-      ncon:'0987654321'
+      ncon:'0987654321',
+      ms:'Married',
+      Spname:'Shivanjali Phadtare',
+      r1:'Routine Transfer to XYZ school',
+      r2:'Promoted From Teacher to Supervisor',
+      r3:'Routine Transfer to QWE School '
+
 
 
     },
@@ -195,7 +210,13 @@ const employeesData = [
       te1:'21/09/2016',
       te2:'28/02/2017',
       te3:'12/09,2021',
-      ncon:'0987654321'
+      ncon:'0987654321',
+      ms:'Married',
+      Spname:'Shivanjali Phadtare',
+      r1:'Routine Transfer to XYZ school',
+      r2:'Promoted From Teacher to Supervisor',
+      r3:'Routine Transfer to QWE School '
+
 
     },
     {
@@ -258,7 +279,13 @@ const employeesData = [
       te1:'21/09/2016',
       te2:'28/02/2017',
       te3:'12/09,2021',
-      ncon:'0987654321'
+      ncon:'0987654321',
+      ms:'Married',
+      Spname:'Shivanjali Phadtare',
+      r1:'Routine Transfer to XYZ school',
+      r2:'Promoted From Teacher to Supervisor',
+      r3:'Routine Transfer to QWE School '
+ 
 
     },
     {
@@ -321,7 +348,13 @@ const employeesData = [
       te1:'21/09/2016',
       te2:'28/02/2017',
       te3:'12/09,2021',
-      ncon:'0987654321'
+      ncon:'0987654321',
+      ms:'Married',
+      Spname:'Shivanjali Phadtare',
+      r1:'Routine Transfer to XYZ school',
+      r2:'Promoted From Teacher to Supervisor',
+      r3:'Routine Transfer to QWE School '
+
 
     },
     {
@@ -384,7 +417,13 @@ const employeesData = [
       te1:'21/09/2016',
       te2:'28/02/2017',
       te3:'12/09,2021',
-      ncon:'0987654321'
+      ncon:'0987654321',
+      ms:'Married',
+      Spname:'Shivanjali Phadtare',
+      r1:'Routine Transfer to XYZ school',
+      r2:'Promoted From Teacher to Supervisor',
+      r3:'Routine Transfer to QWE School '
+
 
     },
     {
@@ -447,7 +486,13 @@ const employeesData = [
       te1:'21/09/2016',
       te2:'28/02/2017',
       te3:'12/09,2021',
-      ncon:'0987654321'
+      ncon:'0987654321',
+      ms:'Married',
+      Spname:'Shivanjali Phadtare',
+      r1:'Routine Transfer to XYZ school',
+      r2:'Promoted From Teacher to Supervisor',
+      r3:'Routine Transfer to QWE School '
+
 
     },
     {
@@ -510,7 +555,13 @@ const employeesData = [
       te1:'21/09/2016',
       te2:'28/02/2017',
       te3:'12/09,2021',
-      ncon:'0987654321'
+      ncon:'0987654321',
+      ms:'Married',
+      Spname:'Shivanjali Phadtare',
+      r1:'Routine Transfer to XYZ school',
+      r2:'Promoted From Teacher to Supervisor',
+      r3:'Routine Transfer to QWE School '
+
 
     },
     {
@@ -572,7 +623,13 @@ const employeesData = [
       te1:'21/09/2016',
       te2:'28/02/2017',
       te3:'12/09,2021',
-      ncon:'0987654321'
+      ncon:'0987654321',
+      ms:'Married',
+      Spname:'Shivanjali Phadtare',
+      r1:'Routine Transfer to XYZ school',
+      r2:'Promoted From Teacher to Supervisor',
+      r3:'Routine Transfer to QWE School '
+
     },
     {
       id: 10,
@@ -634,7 +691,13 @@ const employeesData = [
       te1:'21/09/2016',
       te2:'28/02/2017',
       te3:'12/09,2021',
-      ncon:'0987654321'
+      ncon:'0987654321',
+      ms:'Married',
+      Spname:'Shivanjali Phadtare',
+      r1:'Routine Transfer to XYZ school',
+      r2:'Promoted From Teacher to Supervisor',
+      r3:'Routine Transfer to QWE School '
+
 
 
     }
